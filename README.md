@@ -27,7 +27,7 @@ $ npm install
 ### 3. Run the app
 
 ```sh
-$ npm run dev
+$ npm start
 ```
 
 It will start the development server with on PORT 3000 by default
@@ -36,7 +36,19 @@ It will start the development server with on PORT 3000 by default
 
 Now you can open [http://localhost:3000](http://localhost:3000) in browser and start developing.
 
-## Table Content
+## Table Content (highlight)
 
 - Project structure using Atomic Design, please visit for more detail: https://patternlab.io/
--
+- React 16.6
+- Babel
+- Webpack
+- Styled-components
+- React-dates (http://airbnb.io/react-dates/)
+- Jest
+- StoryBook
+
+## Run tests
+
+```sh
+$ npm test
+```
