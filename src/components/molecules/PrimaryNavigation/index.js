@@ -16,7 +16,6 @@ const Nav = styled.nav`
     font-size: 1.25rem;
     &.active {
       color: #fff;
-      text-decoration: underline;
     }
   }
 `

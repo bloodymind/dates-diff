@@ -34,6 +34,7 @@ const Content = styled.section`
   @media screen and (max-width: 1100px) {
     padding-left: 15px;
   }
+  margin-top: -16px;
 `
 
 const Footer = styled.footer`
