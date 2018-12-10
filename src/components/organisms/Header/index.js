@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { size } from 'styled-theme'
 
-import { IconLink, PrimaryNavigation, Block } from 'components'
+import { PrimaryNavigation, Block } from 'components'
 
 const Wrapper = styled(Block)`
   display: flex;

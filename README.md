@@ -2,7 +2,7 @@
 
 ### 1. Get the source code
 
-Just clone the project(#branches):
+Just clone the project(#master):
 
 ```sh
 $ git clone -b master https://github.com/bloodymind/dates-diff.git my-app

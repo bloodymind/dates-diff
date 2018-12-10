@@ -45,12 +45,7 @@ const Footer = styled.footer`
 `
 
 const PageTemplate = ({
-  header,
-  hero,
-  sponsor,
-  children,
-  footer,
-  ...props
+  header, children, footer, ...props
 }) => {
   return (
     <Wrapper {...props}>
@@ -63,8 +58,6 @@ const PageTemplate = ({
 
 PageTemplate.propTypes = {
   header: PropTypes.node.isRequired,
-  hero: PropTypes.node,
-  sponsor: PropTypes.node,
   footer: PropTypes.node.isRequired,
   children: PropTypes.any.isRequired,
 }
