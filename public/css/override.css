@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "sans-serif";
+  min-height: 480px;
+}
+
+.DateRangePickerInput {
+  border-radius: 4px;
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+.DateInput {
+  width: 30%;
+}
+
+.CalendarDay__default {
+  outline: none;
+}
+
+.DayPicker_weekHeader_li,
+.CalendarMonth_caption {
+  text-transform: capitalize;
+}
